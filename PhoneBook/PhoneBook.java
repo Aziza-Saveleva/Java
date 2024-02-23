@@ -30,10 +30,10 @@ public class PhoneBook {
     public static void main(String[] args) {
         PhoneBook phoneBook = new PhoneBook();
 
-        phoneBook.addContact("John", "1234567890");
-        phoneBook.addContact("John", "5678901234");
-        phoneBook.addContact("Alice", "9876543210");
-        phoneBook.addContact("Bob", "2468135790");
+        phoneBook.addContact("Alex", "1234567890");
+        phoneBook.addContact("Alex", "5678901234");
+        phoneBook.addContact("Irma", "9876543210");
+        phoneBook.addContact("Kris", "2468135790");
 
         phoneBook.printPhoneBook();
     }
